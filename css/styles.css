@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: amaranth;
+    src: url(../fonts/Amaranth-Regular.ttf);
+}
+@font-face{
+    font-family: librebodoni;
+    src: url(../fonts/LibreBodoni-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+header{
+    width: 100%;
+    padding-bottom: 1.4375rem;
+}
+nav{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    padding-right: .625rem;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #702123;
+    font-family: amaranth;
+}
+h1{
+    font-family: amaranth;
+    font-size: 6.25rem;
+    color: #702123;
+}
+.imagen-principal{
+    height: 17.1875rem;
+    width: 15.625rem;
+}
+.pagina-inicio{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/Fondo\ de\ Pantalla\ Wallpaper\ para\ ordenador\ PC\ Kawaii\ Rosa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-custom{
+    height: 1.875rem;
+    width: 1.875rem;
+}
+.email-logo{
+    height: 1.875rem;
+    width: 2.5rem;
+}
+.instagram{
+    height: 1.875rem;
+    width: 1.875rem;
+}
+footer div{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    padding-right: .625rem;
+}
+footer div ul li{
+    text-align: center;
+    color: black;
+    font-family: amaranth;
+    gap: .625rem;
+}
+.cuerpo-productos{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/fondo\ de\ historia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.productos img{
+    width: 18.75rem;
+    height: 18.75rem;
+}
+.productos{
+    font-size: 1.5625rem;
+    font-family: montserrat;
+    color: #702123;
+}
+.cuerpo-info{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/fondo\ de\ historia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.informacion img{
+    width: 21.875rem;
+    height: 37.5rem;
+}
+.cuerpo-contacto{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/fondo\ de\ historia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contacto{
+    font-family: amaranth;
+    font-size: 9.375rem;
+    color: #702123;
+}
+.formulario{
+    font-family: amaranth;
+    width: 18.75rem;
+    height: 18.75rem;
+}
+.cuerpo-pagosenvios{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/fondo\ de\ historia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pagos-envios img{
+    width: 21.875rem;
+    height: 37.5rem;
+}
