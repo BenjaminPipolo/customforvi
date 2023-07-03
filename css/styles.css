@@ -42,10 +42,21 @@ h1{
     font-family: amaranth;
     font-size: 6.25rem;
     color: #702123;
+    grid-column: 1/7;
+    grid-row: 1;
 }
 .imagen-principal{
-    height: 17.1875rem;
-    width: 15.625rem;
+    height: 25rem;
+    width: 23.4375rem;
+    grid-column: 7/8;
+    grid-row: 2;
+}
+.main-principal p{
+    font-family: amaranth;
+    font-size: 1.25rem;
+    color: #702123;
+    grid-column: 1/5;
+    grid-row: 2;
 }
 .pagina-inicio{
     width: 100%;
@@ -53,6 +64,12 @@ h1{
     background-image: url(../assets/img/Fondo\ de\ Pantalla\ Wallpaper\ para\ ordenador\ PC\ Kawaii\ Rosa.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.main-principal{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 12.5rem);
 }
 .logo-custom{
     height: 1.875rem;
